@@ -9,6 +9,7 @@
 }
 
 * {
+    user-select: none;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -204,7 +205,7 @@ body {
 
 .stats-value {
     font-size: 3rem;
-    font-weight: 800;
+    font-weight: 500;
     margin-top: 6px;
 }
 
