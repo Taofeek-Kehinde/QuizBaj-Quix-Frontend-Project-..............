@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizBaj</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <a href="#" class="brand-link">
+            <img src="images/logo.png" alt="QuizBaj Logo" class="brand-logo">
+        </a>
+        <nav class="primary-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn btn-ghost">Contact</a>
+    </header>
+
+    <main class="hero">
+        <div class="hero-copy">
+            <h1 class="hero-heading">
+                Play Online Quiz &amp; Win <br>
+                <span class="hero-heading-accent">Cash Daily!</span>
+            </h1>
+            <p class="hero-lead">Win up to 1000৳ monthly from QuizBaj.</p>
+
+            <div class="signup-form">
+                <div class="field-wrap">
+                    <span class="field-prefix">+880</span>
+                    <input type="tel" class="field-input" placeholder="Enter your number">
+                </div>
+                <button class="btn btn-solid">Register Now</button>
+            </div>
+
+            <div class="stats-block">
+                <p class="stats-label">NUMBER OF ACTIVE USERS RIGHT NOW</p>
+                <h2 class="stats-value" id="userCounter">0</h2>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <img src="images/hero.png" alt="Quiz Illustration" class="hero-art">
+        </div>
+    </main>
+
+
+        <section class="how-to-play">
+        <h2 class="how-to-title">How To Play</h2>
+        
+        <div class="steps-container">
+            <div class="step-card">
+                <div class="step-visual">
+                    <div class="mockup-box">
+                        <div class="mockup-input-row">
+                            <span class="mockup-prefix">+880</span>
+                            <span class="mockup-placeholder">Enter Mobile Number</span>
+                        </div>
+                        <div class="mockup-btn">Register</div>
+                    </div>
+                    <img src="images/click-hand.png" alt="Click" class="click-hand">
+                </div>
+                <div class="step-content">
+                    <h3 class="step-title">Step 1</h3>
+                    <p class="step-desc">Enter the Phone Number and Click Register</p>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-visual">
+                    <div class="mockup-box">
+                        <div class="mockup-input-row mockup-input-center">
+                            <span class="mockup-placeholder">••••••</span>
+                        </div>
+                        <div class="mockup-btn">Verify</div>
+                    </div>
+                    <img src="images/click-hand.png" alt="Click" class="click-hand">
+                </div>
+                <div class="step-content">
+                    <h3 class="step-title">Step 2</h3>
+                    <p class="step-desc">Enter the Verification Code and click Verify.</p>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-visual">
+                    <div class="mockup-box">
+                        <div class="mockup-profile">
+                            <div class="mockup-avatar">
+                                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                            </div>
+                            <span class="mockup-name">Afear Hossen</span>
+                        </div>
+                        <div class="mockup-btn">Play</div>
+                    </div>
+                    <img src="images/click-hand.png" alt="Click" class="click-hand">
+                </div>
+                <div class="step-content">
+                    <h3 class="step-title">Step 3</h3>
+                    <p class="step-desc">Enter your Info and click Play Quiz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section class="how-to-play how-to-play-continued">
+        <div class="steps-container">
+            <div class="step-card">
+                <div class="step-visual step-visual-pink">
+                    <div class="mockup-box">
+                        <div class="mockup-list-item">
+                            <span class="mockup-icon">?</span> Bangla
+                        </div>
+                        <div class="mockup-list-item">
+                            <span class="mockup-icon">?</span> General Science
+                        </div>
+                        <div class="mockup-btn mockup-btn-active">
+                            <span class="mockup-icon mockup-icon-light">?</span> Complete
+                        </div>
+                    </div>
+                    <img src="images/click-hand.png" alt="Click" class="click-hand">
+                </div>
+                <div class="step-content">
+                    <h3 class="step-title">Step 4</h3>
+                    <p class="step-desc">Click on the subject</p>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-visual step-visual-blue">
+                    <div class="mockup-box">
+                        <div class="mockup-image-placeholder">
+                            <span class="mockup-image-icon">🖼</span>
+                        </div>
+                        <div class="mockup-option-row">
+                            <span class="mockup-radio">○</span>
+                            <div class="mockup-line"></div>
+                        </div>
+                        <div class="mockup-option-row">
+                            <span class="mockup-radio">○</span>
+                            <div class="mockup-line"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="step-content">
+                    <h3 class="step-title">Step 5</h3>
+                    <p class="step-desc">A question will have four options</p>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-visual step-visual-pink">
+                    <div class="mockup-box">
+                        <div class="mockup-image-placeholder">
+                            <span class="mockup-image-icon">🖼</span>
+                        </div>
+                        <div class="mockup-option-row">
+                            <span class="mockup-radio">○</span>
+                            <div class="mockup-line"></div>
+                        </div>
+                        <div class="mockup-option-row">
+                            <span class="mockup-radio mockup-radio-active"></span>
+                            <div class="mockup-line mockup-line-active"></div>
+                        </div>
+                        <div class="mockup-option-row">
+                            <span class="mockup-radio">○</span>
+                            <div class="mockup-line"></div>
+                        </div>
+                    </div>
+                    <img src="images/click-hand.png" alt="Click" class="click-hand">
+                </div>
+                <div class="step-content">
+                    <h3 class="step-title">Step 6</h3>
+                    <p class="step-desc">Click right Option.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section class="preparation-section">
+        <div class="prep-header">
+            <h2 class="prep-title">Lets Sharp Your<br>Preparation</h2>
+            <a href="#" class="btn btn-ghost-dark">EXPLORE ALL</a>
+        </div>
+
+        <div class="prep-grid">
+            <div class="prep-card prep-card-dark prep-card-wide">
+                <div class="prep-content">
+                    <span class="prep-tag">LET'S START!</span>
+                    <h3 class="prep-card-title">BCS Model Test</h3>
+                    <p class="prep-desc">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam placerat tortor commodo lectus laoreet venenatis.</p>
+                </div>
+                <div class="prep-image-wrap">
+                    <img src="images/coding.png" alt="BCS Model Test" class="prep-img">
+                </div>
+            </div>
+
+            <div class="prep-card prep-card-light">
+                <img src="images/exam.png" alt="Primary Exam" class="prep-img-circle">
+                <h3 class="prep-card-title">Primary Exam</h3>
+            </div>
+
+            <div class="prep-card prep-card-dark">
+                <img src="images/bank.png" alt="Bank Exam" class="prep-img-circle">
+                <h3 class="prep-card-title">Bank Exam</h3>
+            </div>
+
+            <div class="prep-card prep-card-light">
+                <img src="images/teacher.png" alt="NSI Exam" class="prep-img-circle">
+                <h3 class="prep-card-title">NSI Exam</h3>
+            </div>
+
+            <div class="prep-card prep-card-dark">
+                <img src="images/railway.png" alt="Railway Exam" class="prep-img-circle">
+                <h3 class="prep-card-title">Railway Exam</h3>
+            </div>
+        </div>
+    </section>
+
+        <section class="quiz-categories">
+        <div class="quiz-header">
+            <h2 class="quiz-title">Explore Our Quiz<br>Categories</h2>
+            <a href="#" class="btn btn-ghost-dark">EXPLORE ALL</a>
+        </div>
+
+        <div class="quiz-grid">
+            <div class="quiz-card quiz-card-beige card-math">
+                <div class="quiz-icon-wrap">
+                    <img src="images/abacus.png" alt="Math" class="quiz-icon">
+                </div>
+                <h3 class="quiz-card-title">Math</h3>
+                <p class="quiz-card-desc">Sky was cloudless and of a deep dark blue spectacle before us was indeed</p>
+            </div>
+
+            <div class="quiz-card quiz-card-beige card-english">
+                <div class="quiz-icon-wrap">
+                    <img src="images/english.png" alt="English" class="quiz-icon">
+                </div>
+                <h3 class="quiz-card-title">English</h3>
+                <p class="quiz-card-desc">Even the all-powerful Pointing has no control about the blind texts.</p>
+            </div>
+
+            <div class="quiz-card quiz-card-white card-science">
+                <div class="quiz-icon-wrap quiz-icon-gold">
+                    <img src="images/science.png" alt="Science" class="quiz-icon">
+                </div>
+                <h3 class="quiz-card-title">Science</h3>
+                <p class="quiz-card-desc">Unorthographic life One day however a small line of blind text.</p>
+            </div>
+
+            <div class="quiz-card quiz-card-beige card-bangla">
+                <div class="quiz-icon-wrap">
+                    <img src="images/minar.png" alt="Bangla" class="quiz-icon">
+                </div>
+                <h3 class="quiz-card-title">Bangla</h3>
+                <p class="quiz-card-desc">However a small line of blind text by the name.</p>
+            </div>
+
+            <div class="quiz-card quiz-card-white card-gk">
+                <div class="quiz-icon-wrap">
+                    <img src="images/book.png" alt="General Knowledge" class="quiz-icon">
+                </div>
+                <h3 class="quiz-card-title">General Knowledge</h3>
+                <p class="quiz-card-desc">Text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+            </div>
+        </div>
+    </section>
+
+        <section class="winners-section">
+        <div class="winners-container">
+            <div class="winners-content">
+                <a href="#" class="winners-badge">VIEW ALL</a>
+                <h2 class="winners-title">Winner<br>Player</h2>
+                <p class="winners-desc">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam placerat tortor commodo lectus laoreet venenatis.</p>
+            </div>
+
+            <div class="winners-visual">
+                <div class="winners-artwork">
+                    <span class="deco-spark deco-star-1" aria-hidden="true"></span>
+                    <span class="deco-ring deco-circle-1" aria-hidden="true"></span>
+                    <span class="deco-ring deco-circle-2" aria-hidden="true"></span>
+                    <span class="deco-ring deco-circle-3" aria-hidden="true"></span>
+                    <span class="deco-spark deco-star-2" aria-hidden="true"></span>
+
+                    <svg class="deco-arrow deco-arrow-top" viewBox="0 0 160 100" aria-hidden="true">
+                        <path d="M3 5 C54 6 111 22 148 77"></path>
+                        <path d="M132 67 L148 77 L144 58"></path>
+                    </svg>
+                    <svg class="deco-arrow deco-arrow-monthly" viewBox="0 0 160 70" aria-hidden="true">
+                        <path d="M153 6 C119 53 60 57 12 30"></path>
+                        <path d="M28 26 L12 30 L20 44"></path>
+                    </svg>
+                    <svg class="deco-arrow deco-arrow-left" viewBox="0 0 160 70" aria-hidden="true">
+                        <path d="M155 8 C112 49 58 48 8 18"></path>
+                        <path d="M24 14 L8 18 L17 32"></path>
+                    </svg>
+
+                    <div class="visual-grid">
+                        <div class="winner-card winner-card-dark card-weekly">
+                            <h3 class="winner-card-title">Weekly</h3>
+                            <span class="winner-card-sub">Winner</span>
+                        </div>
+
+                        <div class="winner-image-wrap img-top">
+                            <img src="images/one.png" alt="Weekly Winner" class="winner-img">
+                        </div>
+
+                        <div class="winner-image-wrap img-bottom">
+                            <img src="images/two.png" alt="Monthly Winner" class="winner-img">
+                        </div>
+
+                        <div class="winner-card winner-card-dark card-monthly">
+                            <h3 class="winner-card-title">Monthly</h3>
+                            <span class="winner-card-sub">Winner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="winners-footer">
+            <a href="#" class="nav-arrow" aria-label="Previous winners">
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+            <a href="#" class="nav-arrow" aria-label="Next winners">
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+    
+
+    <section class="articles-section">
+        <div class="articles-container">
+            <h2 class="articles-title">Check Latest<br>Articles</h2>
+
+            <div class="articles-grid">
+                
+                <article class="article-card">
+                    <div class="article-image-wrap">
+                        <img src="images/laptop.png" alt="Article 1" class="article-img">
+                    </div>
+                    <h3 class="article-title">Even the all-powerful Pointing has no control about</h3>
+                    <span class="article-date">16 Oct 2020</span>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-image-wrap">
+                        <img src="images/laptops.png" alt="Article 2" class="article-img">
+                    </div>
+                    <h3 class="article-title">Almost unorthographic life One day however a small line</h3>
+                    <span class="article-date">14 Oct 2020</span>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-image-wrap">
+                        <img src="images/bitcoin.png" alt="Article 3" class="article-img">
+                    </div>
+                    <h3 class="article-title">Lorem Ipsum decided to leave for the far World of Grammar</h3>
+                    <span class="article-date">10 Oct 2020</span>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-main">
+            <header class="contact-header">
+                <span class="contact-eyebrow">CONTACT US</span>
+                <h2 class="contact-title">Get In Touch</h2>
+                <p class="contact-description">Lorem Ipsum decided to leave for the far<br class="desktop-break"> World of Grammar</p>
+            </header>
+
+            <span class="contact-decoration contact-ring contact-ring-top" aria-hidden="true"></span>
+            <span class="contact-decoration contact-ring contact-ring-side" aria-hidden="true"></span>
+            <span class="contact-decoration contact-ring contact-ring-bottom" aria-hidden="true"></span>
+            <span class="contact-decoration contact-spark contact-spark-top" aria-hidden="true"></span>
+            <span class="contact-decoration contact-spark contact-spark-left" aria-hidden="true"></span>
+            <span class="contact-decoration contact-spark contact-spark-bottom" aria-hidden="true"></span>
+
+            <svg class="contact-decoration contact-arrow contact-arrow-top" viewBox="0 0 120 70" aria-hidden="true">
+                <path d="M112 12 C78 -2 39 3 8 32"></path>
+                <path d="M24 24 L8 32 L25 37"></path>
+            </svg>
+            <svg class="contact-decoration contact-arrow contact-arrow-left" viewBox="0 0 110 90" aria-hidden="true">
+                <path d="M8 5 C22 37 43 56 85 71"></path>
+                <path d="M70 56 L85 71 L65 76"></path>
+            </svg>
+            <svg class="contact-decoration contact-arrow contact-arrow-bottom" viewBox="0 0 80 100" aria-hidden="true">
+                <path d="M72 4 C42 27 24 55 15 89"></path>
+                <path d="M7 72 L15 89 L28 75"></path>
+            </svg>
+
+            <form class="contact-form">
+                <label class="contact-field">
+                    <span>Name</span>
+                    <input type="text" name="name" autocomplete="name">
+                </label>
+                <label class="contact-field">
+                    <span>Email</span>
+                    <input type="email" name="email" autocomplete="email">
+                </label>
+                <label class="contact-field">
+                    <span>Message</span>
+                    <textarea name="message" rows="5"></textarea>
+                </label>
+                <button class="contact-submit" type="button">Submit</button>
+            </form>
+        </div>
+
+        <footer class="site-footer">
+            <div class="footer-main">
+                <a class="footer-brand" href="#" aria-label="QuizBaj home">
+                    <img src="images/logo.png" alt="QuizBaj">
+                </a>
+
+                <nav class="footer-links" aria-label="Footer menu">
+                    <h3>Menu</h3>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </nav>
+
+                <nav class="footer-links" aria-label="Footer services">
+                    <h3>Service</h3>
+                    <a href="#">Planning</a>
+                    <a href="#">Management</a>
+                    <a href="#">Strategy</a>
+                    <a href="#">Market</a>
+                </nav>
+
+                <div class="footer-socials" aria-label="Social media">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Copyright © 2022 Quizbaj. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
